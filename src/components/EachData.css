@@ -1,0 +1,33 @@
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    position: relative;
+
+}
+
+.box>*{
+    flex: 1 1 160px;
+
+}
+.icon{
+    position: absolute;
+    background-color: white;
+    font-size: 40px;
+
+}
+.title{
+  position: relative;  
+  padding-left: 60px;
+    font-style: inherit;
+}
+.description{
+    position: relative;
+    padding-left: 60px;
+    font-style: inherit;
+}
+
